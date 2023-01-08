@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="game-interface">
+        <section class="player-0 player-active player">
+            <p class="player-name">PLAYER 1</p>
+            <div class="total-score">total: <span class="player0-total-score"> 0</span></div>
+            <div class="current-score">neste round: <span class="player0-current-score">0</span></div>
+        </section>
+        <section class="mid-interface">
+            <ul class="btn-list">
+                <li><button class="btn btn-roll">🎲 ROLAR O DADO</button></li>
+                <li><button class="btn btn-hold">✊ SEGURAR</button></li>
+                <li><button class="btn btn-restart">🔄 REINICIAR</button></li>
+            </ul>
+            <img src="images/xsymbol.svg" alt="">
+            <p class="win-txt hidden">Vitória! Reinicie para jogar novamente.</p>
+        </section>
+        <section class="player-1 player">
+            <p class="player-name">PLAYER 2</p>
+            <div class="total-score">total: <span class="player1-total-score">0</span></div>
+            <div class="current-score">neste round: <span class="player1-current-score">0</span></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

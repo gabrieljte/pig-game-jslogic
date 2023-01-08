@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(218, 181, 133);
+}
+
+.game-interface {
+    background-color: antiquewhite;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 4rem;
+}
+
+.player {
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+    gap: 4rem;
+    width: 400px;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.mid-interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.btn-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    width: 5rem;
+    font-weight: 800;
+    background: rgb(218, 181, 133);
+    border-radius: 8px;
+    border: none;
+    padding: .3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+
+/* indicadores */
+
+.player-active {
+    background-color: rgb(228, 134, 13);
+}
+
+.player-name {
+    text-align: center;
+    background-color: rgb(218, 181, 133);
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+.current-score {
+    text-align: center;
+    background-color: rgb(218, 181, 133);
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+.total-score{
+    background-color: rgb(218, 181, 133);
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+.win {
+    background-color: green;
+}
+
+.win-txt {
+    font-weight: 700;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
